@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS Mistakes(
+    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    User_ID TEXT, 
+    Mistake TEXT, 
+    Correction TEXT, 
+    Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
